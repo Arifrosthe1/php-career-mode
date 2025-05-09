@@ -3,12 +3,12 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "careeer_mode";
+$dbname = "career_mode";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
+// Check connect
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
